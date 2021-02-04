@@ -32,7 +32,6 @@ Terrestial planets
     Venus 
             4.87 
             12,104 
-            5243 
             8.9 
             2802.0 
             108.2 
