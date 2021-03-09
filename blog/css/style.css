@@ -124,7 +124,7 @@ nav a:focus, nav a:hover {
 }
 
 nav a:active {
-    color: #295073;
+    color: #525252;
     background-color: #000000;
     
     
@@ -174,7 +174,7 @@ img {
 }
 
 .call1 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     width: 260px;
     
 }
@@ -287,21 +287,21 @@ h2 {
 h3 {
    font-family: josefinslab, Garamond, serif;
    letter-spacing: 0.0625rem;
-   font-size: 1.2rem;
-    margin-left: 2rem;
+   font-size: 1.4rem;
+   margin-left: 2rem;
 }
 
 p {
    font-family: montserrat, Garamond, serif;
    letter-spacing: 0.0625rem;
    font-size: 1rem;
-    margin-left: 2rem;
+   margin-left: 2rem;
 }
 
 aside, p {
    font-family: opensans-regular, Garamond, serif;
    letter-spacing: 0.0625rem;
-   font-size: 1rem;
+   font-size: 1.2rem;
 }
 
 
