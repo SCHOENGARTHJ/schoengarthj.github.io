@@ -60,14 +60,17 @@ html {
 }
 
 body {
-    margin: 1.5rem auto;
+    margin: 1rem auto;
     width:90%;
     min-width:56.25rem;
 }
 
 /* Layout */
 
-.header {
+header {
+    font-size: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   
 }
 
@@ -88,7 +91,8 @@ aside {
     grid-row: 1;
     border-left: 1px solid black;
     padding-left: 1rem;
-   
+    column-width: 1000px;
+      
 }
 
 .subsection {
@@ -103,7 +107,8 @@ nav a {
     text-decoration: none;
     font-family: opensans-regular;
     font-size: 1.3rem;
-    padding: 1.5rem 2.5rem;
+    font-weight:bold;
+    padding: 1.5rem 2rem;
 }
 
 nav {
@@ -112,41 +117,93 @@ nav {
 }
 
 nav a:focus, nav a:hover {
-    color: #ffffff;
-    background-color: #33658A;
+    color: #000000;
+    background-color: none;
+    text-decoration: line-through;
+    transform: rotate(5deg);
 }
 
 nav a:active {
-    color: #ffffff;
+    color: #295073;
     background-color: #000000;
+    
+    
 }
 
 /* Images and Figs */
 
+span{
+  display: inline-block;
+  font-family:ultra;
+  transform: rotate(-deg);
+  padding: 20px 10px;
+  font-size: 35px;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #E1D7CC;
+  background-color: #8C3A58;
+  border: none;
+  border-radius: 10px 2px 10px 2px;
+  box-shadow: -webkit-box-shadow: 4px 5px 6px 5px; 
+  box-shadow: 4px 5px 6px 1px rgba(0,0,0,0.76);
+  text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 2px black; 
+  
+}
+
 img {
     width: 100%;
+    
 }
 
 .resize {
-    width: 300px;
+    width: 250px;
     height: auto;
+    margin-left: 2rem;
+    
 }
 
 .call {
     font-size: .9rem;
-    padding-right: 7rem;
+    width: 260px;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid black;
+    column-width: 200px;
+    
 }
+
+.call1 {
+    font-size: 1.3rem;
+    width: 260px;
+    
+}
+
+.rotate{
+    transform: rotate(-5deg);
+}
+
 
 .article-image {
     position: relative;
     width: 33%;
     float: left;
-    margin-right: 1rem;
+    margin-right: 2rem;
     margin-left: 0rem;
 }
 
+time {
+    padding-left:2rem;
+    font-style: italic;
+    font-size: .8rem;
+}
 
-
+.expand {
+    font-size: 4px;
+    letter-spacing: 1px; 
+    text-decoration: none;
+    
+}
 
 
 /* Imported Typfaces */
@@ -212,46 +269,55 @@ img {
 h1 {
    font-family: montserrat, Garamond, serif;
    letter-spacing: 0.125rem;
-   font-size: 2.75rem;
+   font-size: 2rem;
+   font-weight: bold;
    margin: 1.125rem;
+   padding-left: 2rem;
+   padding-right: 2rem;
    text-align: center;
 }
 
 h2 {
    font-family: roboto, Garamond, serif;
    letter-spacing: 0.0625rem;
-   font-size: 2rem;
+   font-size: 1.5rem;
+    margin-left: 2rem;
 }
 
 h3 {
    font-family: josefinslab, Garamond, serif;
    letter-spacing: 0.0625rem;
-   font-size: 1.7rem;
+   font-size: 1.2rem;
+    margin-left: 2rem;
 }
 
 p {
    font-family: montserrat, Garamond, serif;
    letter-spacing: 0.0625rem;
    font-size: 1rem;
+    margin-left: 2rem;
 }
 
 aside, p {
    font-family: opensans-regular, Garamond, serif;
    letter-spacing: 0.0625rem;
-   font-size: 1.3rem;
+   font-size: 1rem;
 }
+
+
 
 figcaption {
 font-family: montserrat, Garamond, serif;
-font-size: .8rem;
- background-color: antiquewhite;
- padding: 1rem;
+font-size: 1rem;
+background-color: #EEEEDD;
+padding: 1rem;
 
 }
 
+
 button {
   display: inline-block;
- font-family:ultra;
+  font-family:ultra;
   padding: 10px 15px;
   font-size: 22px;
   cursor: pointer;
@@ -259,10 +325,11 @@ button {
   text-decoration: none;
   outline: none;
   color: #fff;
-  background-color: #214761;
+  background-color: #27476E;
   border: none;
   border-radius: 15px;
   box-shadow: 0 3px #999;
+  margin-left: 2rem;
 }
 
 footer {
