@@ -105,10 +105,11 @@ aside {
 nav a {
     display: inline-block;
     text-decoration: none;
-    font-family: opensans-regular;
+    font-family: montserrat;
     font-size: 1.3rem;
     font-weight:bold;
     padding: 1.5rem 2rem;
+    
 }
 
 nav {
@@ -124,8 +125,8 @@ nav a:focus, nav a:hover {
 }
 
 nav a:active {
-    color: #525252;
-    background-color: #000000;
+    color: #5B6F8E;
+    background-color: none;
     
     
 }
@@ -134,7 +135,7 @@ nav a:active {
 
 span{
   display: inline-block;
-  font-family:ultra;
+  font-family:ultra,Garamond, serif;
   transform: rotate(-deg);
   padding: 20px 10px;
   font-size: 35px;
@@ -195,7 +196,7 @@ img {
 time {
     padding-left:2rem;
     font-style: italic;
-    font-size: .8rem;
+    font-size: .9rem;
 }
 
 .expand {
@@ -278,14 +279,14 @@ h1 {
 }
 
 h2 {
-   font-family: roboto, Garamond, serif;
+   font-family: montserrat, Garamond, serif;
    letter-spacing: 0.0625rem;
    font-size: 1.6rem;
     margin-left: 2rem;
 }
 
 h3 {
-   font-family: josefinslab, Garamond, serif;
+   font-family: montserrat, Garamond, serif;
    letter-spacing: 0.0625rem;
    font-size: 1.4rem;
    margin-left: 2rem;
@@ -299,7 +300,7 @@ p {
 }
 
 aside, p {
-   font-family: opensans-regular, Garamond, serif;
+   font-family: montserrat, Garamond, serif;
    letter-spacing: 0.0625rem;
    font-size: 1.2rem;
 }
