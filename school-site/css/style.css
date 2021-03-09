@@ -81,7 +81,7 @@ header, footer {
 
  @font-face {
     font-family: "josefinslab";
-    src: url("../fonts/josefinslab-regular.tff") format('truetype');
+    src: url(../fonts/josefinslab-regular.tff") format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -100,7 +100,7 @@ html {
 }
 
 h1 {
-   font-family: josefinslab, Garamond, serif;
+   font-family: montserrat, Garamond, serif;
    letter-spacing: 0.125rem;
    font-size: 3.75rem;
    margin: 1.125rem;
@@ -108,7 +108,7 @@ h1 {
 }
 
 h2 {
-   font-family: josefinslab, Garamond, serif;
+   font-family: montserra, Garamond, serif;
    letter-spacing: 0.125rem;
    font-size: 1.5rem;
 }
