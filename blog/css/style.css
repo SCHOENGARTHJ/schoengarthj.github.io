@@ -63,6 +63,7 @@ body {
     margin: 1rem auto;
     width:90%;
     min-width:56.25rem;
+    max-width:100rem;
 }
 
 /* Layout */
@@ -131,9 +132,10 @@ nav a:active {
     
 }
 
+
 /* Images and Figs */
 
-span{
+.highlight{
   display: inline-block;
   font-family:ultra,Garamond, serif;
   transform: rotate(-deg);
@@ -204,6 +206,10 @@ time {
     letter-spacing: 1px; 
     text-decoration: none;
     
+}
+
+.footer{
+    font-size: .9rem;
 }
 
 
@@ -301,7 +307,7 @@ p {
 
 aside, p {
    font-family: montserrat, Garamond, serif;
-   letter-spacing: 0.0625rem;
+   letter-spacing: 0.02rem;
    font-size: 1.2rem;
 }
 
