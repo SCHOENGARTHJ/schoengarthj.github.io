@@ -106,10 +106,10 @@ aside {
 nav a {
     display: inline-block;
     text-decoration: none;
-    font-family: montserrat;
+    font-family: "montserrat-regular";
     font-size: 1.3rem;
     font-weight:bold;
-    padding: 1.5rem 2rem;
+    padding: 1.5rem 4rem;
     
 }
 
@@ -136,21 +136,21 @@ nav a:active {
 /* Images and Figs */
 
 .highlight{
-  display: inline-block;
-  font-family:ultra,Garamond, serif;
-  transform: rotate(-deg);
-  padding: 20px 10px;
-  font-size: 35px;
-  text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: #E1D7CC;
-  background-color: #8C3A58;
-  border: none;
-  border-radius: 10px 2px 10px 2px;
-  box-shadow: -webkit-box-shadow: 4px 5px 6px 5px; 
-  box-shadow: 4px 5px 6px 1px rgba(0,0,0,0.76);
-  text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 2px black; 
+    display: inline-block;
+    font-family:ultra,Garamond, serif;
+    transform: rotate(-deg);
+    padding: 20px 10px;
+    font-size: 35px;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #E1D7CC;
+    background-color: #8C3A58;
+    border: none;
+    border-radius: 10px 2px 10px 2px;
+    box-shadow: -webkit-box-shadow: 4px 5px 6px 5px; 
+    box-shadow: 4px 5px 6px 1px rgba(0,0,0,0.76);
+    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 2px black; 
   
 }
 
@@ -160,27 +160,13 @@ img {
 }
 
 .resize {
-    width: 250px;
+    width: 260px;
     height: auto;
     margin-left: 2rem;
     
 }
 
-.call {
-    font-size: .9rem;
-    width: 260px;
-    padding-right: 1rem;
-    padding-bottom: 1rem;
-    border-bottom: 1px solid black;
-    column-width: 200px;
-    
-}
 
-.call1 {
-    font-size: 1.2rem;
-    width: 260px;
-    
-}
 
 .rotate{
     transform: rotate(-5deg);
@@ -224,7 +210,7 @@ time {
 
 @font-face {
     font-family: "robotoslab-regular";
-    src: url("../fonts/serif/robotoslab-regular.tff") format('truetype');
+    src:url(../fonts/serif/robotoslab-regular.tff) format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -245,7 +231,7 @@ time {
 
 @font-face {
     font-family: "lato-regular";
-    src: url("../fonts/sans-serif/lato-regular.tff") format('truetype');
+    src:url("../fonts/sans-serif/lato-regular.tff") format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -259,14 +245,14 @@ time {
 
 @font-face {
     font-family: "opensans-regular";
-    src: url("../fonts/san-serif/opensans-regular.tff") format('truetype');
+    src: url(../fonts/sans-serif/opensans-regular.tff) format('truetype')
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "roboto-regular";
-    src: url("../fonts/sans-serif/roboto-regular.tff") format('truetype');
+    src:url("../fonts/san-seriff/roboto-regular.tff") format ('truetype')
     font-weight: normal;
     font-style: normal;
 }
@@ -274,7 +260,7 @@ time {
 /* Typography Styles */
 
 h1 {
-   font-family: montserrat, Garamond, serif;
+   font-family: "montserrat-regular", Garamond, serif;
    letter-spacing: 0.125rem;
    font-size: 2rem;
    font-weight: bold;
@@ -285,37 +271,54 @@ h1 {
 }
 
 h2 {
-   font-family: montserrat, Garamond, serif;
-   letter-spacing: 0.0625rem;
+   font-family: "montserrat-regular", Garamond, serif;
+   letter-spacing: 0.0125rem;
    font-size: 1.6rem;
     margin-left: 2rem;
 }
 
 h3 {
-   font-family: montserrat, Garamond, serif;
-   letter-spacing: 0.0625rem;
-   font-size: 1.4rem;
+   font-family: "montserrat-regular", Garamond, serif;
+   letter-spacing: 0.0125rem;
+   font-size: 1.3rem;
    margin-left: 2rem;
 }
 
 p {
-   font-family: montserrat, Garamond, serif;
-   letter-spacing: 0.0625rem;
+   font-family: "montserrat-regular", Garamond, serif;
+   letter-spacing: 0.0125rem;
    font-size: 1rem;
    margin-left: 2rem;
 }
 
 aside, p {
-   font-family: montserrat, Garamond, serif;
-   letter-spacing: 0.02rem;
-   font-size: 1.2rem;
+   font-family: "opensans-regular", Garamond, serif;
+   letter-spacing: 0.0125rem;
+   font-size: 1.3rem;
 }
 
+.call {
+    font-size: .9rem;
+    letter-spacing:.0125;
+    width: 260px;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid black;
+    column-width: 200px;
+    
+}
 
+.call1 {
+    font-size: 1.2rem;
+    letter-spacing:.0125rem;
+    width: 260px;
+    
+}
 
 figcaption {
-font-family: montserrat, Garamond, serif;
-font-size: 1rem;
+font-family: "montserrat-regular", Garamond, serif;
+font-size:1rem;
+letter-spacing:.0125rem;
 background-color: #EEEEDD;
 padding: 1rem;
 
@@ -337,8 +340,11 @@ button {
   border-radius: 15px;
   box-shadow: 0 3px #999;
   margin-left: 2rem;
+    
 }
 
 footer {
     text-decoration: none;
+    display:inline;
+    
 }
